@@ -1,0 +1,64 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.nav-one{
+    display: flex;
+    gap: 20px;
+
+}
+.img-one{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 50px;
+}
+.text-one{
+    font-size: 45px;
+}
+.span-one{
+    color: #FF42A5;
+}
+ul{
+    list-style:none;
+}
+.list-one{
+    display: flex;
+margin-top: 60px;
+gap: 30px;
+}
+.nav{
+    display: flex;
+justify-content: space-around;
+}
+.yt{
+    display: flex;
+gap: 24px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+height:25px ;
+padding:15px ;
+text-align: center;
+font-size: 18px;
+margin:0px;
+
+}
+.youtube{
+
+height: 40px;
+position: relative;
+bottom: 7px;
+}
+.tiktok{
+    
+    height: 38px;
+   position: relative;
+    bottom: 7px;
+}
+.yt{
+    position: relative;
+    bottom: 14px;
+
+}
+
