@@ -62,3 +62,52 @@ bottom: 7px;
 
 }
 
+.goat{
+    font-size: 95px;
+    font-weight: 800;
+}
+.play{
+    font-size: 48px;
+font-weight: 600;
+}
+
+.facility{
+    font-size: 20px;
+font-weight: 500;
+color: #534C64;
+
+}
+.banner-text{
+    background-image: url('../images/Group\ 14.png');
+padding-left: 240px;
+padding-bottom: 169px;
+
+background-repeat: no-repeat;
+}
+.banner-btn{
+    padding-left: 40px;
+
+}
+.sign{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+color: white;
+padding: 21px 40px;
+background-repeat: no;
+}
+.rogue{
+    border-radius: 48px;
+background: #4EC5F7;
+border: none;
+color: white;
+padding: 21px 40px;
+}
+.banner{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+
+}
+.banner-list{
+
+}
