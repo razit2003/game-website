@@ -235,7 +235,7 @@ border-radius: 50px;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 width: 150px;
-box-shadow: 1px 3px lightgray;
+box-shadow: 1px 2px lightgray;
 }
 .btn-text{
     padding-top:15px;
@@ -259,9 +259,25 @@ gap: 50px;
 }
 .btn:hover{
    color: #FF42A5;
-border: 3px solid #F948B2;
+border: 1px solid #F948B2;
 }
+.hover{
 
+transition: 1s;
+
+}
+.games-img{
+    color:black;
+
+}
+.hover:hover{
+   border: 5px solid #F948B2 ;
+border-radius: 25px;
+transform: scale(1.2);
+z-index: 2;
+opacity: .7;
+
+}
 @media screen  and (max-width:576px) {
     .nav{
         display: flex;
@@ -288,9 +304,11 @@ border: 3px solid #F948B2;
     width: 100%;
 }
 .games-img{
- 
+
     flex-direction: column;
 }
+
+
 .two-img{
   
 position: relative;
@@ -319,6 +337,15 @@ margin-left: 24px;
 .footer{
     height:750px;
 
+}
+.first-part{
+display:flex;
+flex-direction: column;
+margin-top: 700px;
+}
+.second-part{
+   display: flex;
+   flex-direction: column;
 }
 
 }
