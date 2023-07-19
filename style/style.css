@@ -281,8 +281,21 @@ opacity: .7;
 .sub-class{
     margin-top:35px;
 }
+.idea{
+    margin-bottom: 20px;
+margin-left: 75px;
+background-color: #F948B2;
+color: white;
+border: none;
+border-radius: 8px;
+height: 30px;
+box-shadow: 1px 2px gray;
+}
+.idea:hover{
+    color: #534C64;
+border: 2px solid #534C64;
 
-
+}
 
 
 
