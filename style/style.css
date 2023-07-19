@@ -65,6 +65,8 @@ bottom: 7px;
 .goat{
     font-size: 95px;
     font-weight: 800;
+color: #F948B2;
+
 }
 .play{
     font-size: 48px;
@@ -81,7 +83,7 @@ color: #534C64;
     background-image: url('../images/Group\ 14.png');
 padding-left: 240px;
 padding-bottom: 169px;
-
+width: 100%;
 background-repeat: no-repeat;
 }
 .banner-btn{
@@ -108,6 +110,129 @@ padding: 21px 40px;
    grid-template-columns: repeat(2,1fr);
 
 }
-.banner-list{
 
+.games-img{
+    display: flex;
+gap: 24px;
+justify-content: center;
+
+}
+.games-section{
+    margin-top: 120px;
+
+}
+.games-text{
+    text-align: center;
+}
+.online-one{
+    font-size: 48px;
+    font-weight: 700;
+}
+.span-two{
+color:#F948B2
+}
+.collection-one{
+    font-size: 18px;
+    font-weight: 400;
+}
+.span-three{
+    color:#F948B2 ;
+}
+.instantly{
+    font-size: 48px;
+    font-weight: 700;
+}
+.instantly-descrip{
+    font-size: 18px;
+    font-weight: 400;
+}
+.all-content{
+position: absolute;
+margin-left: 16%;
+margin-top: 336px;
+}
+.two-img{
+margin-left: 50%;
+    margin-top: 336px;
+}
+.img-two{
+  margin-left: 70px;
+    width: 600px;
+display: flex;
+
+}
+.img-three{
+    width: 318.5px;
+height: 365.083px;
+flex-shrink: 0;
+position: relative;
+bottom: 300px;
+}
+.last-one{
+    display: flex;
+gap:20px;
+justify-content: center;
+}
+.footer{
+    background: #0B0223;
+
+}
+.img-last{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 50px;
+
+}
+
+.span-last{
+    color: white;
+}
+.last-line{
+    display: flex;
+color:white;
+justify-content: center;
+gap:60px ;
+}
+
+
+
+
+@media screen  and (max-width:576px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+ justify-content: center;
+    }
+.list-one{
+ display: flex;
+ flex-direction: column;
+
+}
+.yt{
+ margin-right:90px;
+
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.banner-text{
+    padding-left: 0px;
+}
+.group-18{
+    width: 100%;
+}
+.games-img{
+ 
+    flex-direction: column;
+}
+.two-img{
+  
+position: relative;
+bottom: 50%;
+top: 800px;
+right:300px;
+width: 50%;
+}
 }
