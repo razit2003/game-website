@@ -278,6 +278,14 @@ z-index: 2;
 opacity: .7;
 
 }
+.sub-class{
+    margin-top:35px;
+}
+
+
+
+
+
 @media screen  and (max-width:576px) {
     .nav{
         display: flex;
@@ -315,7 +323,7 @@ position: relative;
 bottom: 50%;
 top: 800px;
 right:300px;
-width: 50%;
+width:50%;
 }
 .footer{
     margin-top: 700px;
@@ -339,13 +347,26 @@ margin-left: 24px;
 
 }
 .first-part{
-display:flex;
-flex-direction: column;
-margin-top: 700px;
+  display: grid;
+  grid-template-columns:repeat(2,1fr) ;
+    margin-top: 700px;
+
 }
 .second-part{
-   display: flex;
-   flex-direction: column;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.all-content{
+ position:relative;
+ right: 50px;
+
+}
+.two-img{
+top: 50px;
+}
+.all-btn{
+    position: relative;
+   bottom: 200px;
 }
 
 }
