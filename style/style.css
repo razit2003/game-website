@@ -296,7 +296,59 @@ box-shadow: 1px 2px gray;
 border: 2px solid #534C64;
 
 }
+@media screen and (min-width:578px) and (max-width:768px) {
+    .nav{
+        flex-direction: column;
+    }
+.nav-one{
+    justify-content: center;
+}
+.list-one{
+    justify-content: center;
+}
+.games-text{
+    text-align: center;
+margin-top: 400px;
+}
+.games-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.all-btn{
+    margin-top: 400px;
+margin-bottom: 200px;
 
+
+}
+.all-content{
+margin-top: 1100px;
+text-align: center;
+}
+.two-img{
+    margin-left: 0px;
+}
+.all-btn{
+    justify-content: center;
+}
+.first-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+}
+.second-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) 200px;
+}
+.banner-text{
+    margin-top: 860px;
+
+}
+.group-18{
+margin-top:50px;
+    position:relative;
+right: 570px;
+
+}
+}
 
 
 @media screen  and (max-width:576px) {
